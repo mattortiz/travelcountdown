@@ -1,6 +1,19 @@
 {
   "homepage": "http://mattortiz.github.io/travelcountdown",
   "name": "reactclock",
+  "nodemonConfig": {
+    "watch": [
+      "server"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "*.test.ts"
+    ],
+    "delay": "3",
+    "execMap": {
+      "ts": "ts-node"
+    }
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
