@@ -25,8 +25,7 @@ class Clock extends Component {
   }
 
   getTimeUntil(deadline) {
-    // const countDownDate = new Date.parse(deadline).getTime();
-    const countDownDate = new Date("July 16, 2019 19:55:00").getTime();
+    const countDownDate = new Date(deadline).getTime();
     const now = new Date().getTime();
     const time = countDownDate - now;
 
