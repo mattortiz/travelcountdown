@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      deadline: "August 6, 2019 19:45:00",
+      deadline: "August 20, 2019 12:55:00",
       destCity: "Salt Lake City, UT",
       homeCity: "Anthem, AZ"
     };
